@@ -1,0 +1,31 @@
+.leftgrid{
+    justify-content: center;
+    align-items: center;
+    /* min-height: 100%; */
+    color: black;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 225%;
+    display: flex;
+    min-height: 100vh;
+}
+
+.rightgrid{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    min-height: 100vh;
+}
+
+.box{
+    background: linear-gradient(180deg, #2C69D1 0%, #51C7EF 100%);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
+}
+
+.input{
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px;
+
+}

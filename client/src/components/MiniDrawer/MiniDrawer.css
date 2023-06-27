@@ -1,0 +1,17 @@
+.sidebarelement{
+    display: 'block';
+}
+
+.sidebarelement:hover,
+.sidebarelement:active {
+  background-color: #0E1C5E;
+  border-radius: 5%;
+  transition: 'border-radius' 0.3s;
+  color: white;
+
+}
+
+
+
+
+

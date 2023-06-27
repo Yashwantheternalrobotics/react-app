@@ -1,0 +1,51 @@
+ .analytics_line{
+    width: 100%;
+    margin-top: 1rem;
+    border:2px solid #ccc
+}
+
+.rec-tog-date{
+    width: 100%;
+  position: relative;
+  border: none;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 35px;
+  padding-left: 1%;
+  background-color: #ffffff !important;
+  border-radius: 13px;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  line-height: 24px;
+  height: 38px;
+  letter-spacing: 0.2px;
+  }
+  .rec-tog-date:focus {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  
+
+
+
+
+  .card{
+    display: flex;
+    justify-content: center;
+    width: 80%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3) !important;
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .card:hover,.card:active{
+    transition: transform 0.3s;
+    transform:scale(1.05)
+  }
+
+  .datepicker{
+    margin-left: 5%;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.3) !important;
+
+  }
+
